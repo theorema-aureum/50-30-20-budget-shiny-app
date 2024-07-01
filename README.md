@@ -1,2 +1,4 @@
 # 50-30-20-budget-shiny-app
-A code repository for a budgeting Shiny app.
+The 50-30-20 budget is a method that uses 50% of income for bills and fixed expenses, 30% of income for discretionary expenses, and 20% of income for savings. This Shiny web app takes a given monthly income and user-entered transactions (transaction date, description, category (Bills, Discretionary, Savings), and amount is needed) and creates a table with transaction information and a table with starting and remaining budget amounts for the three categories (automatically updated with each transaction). Should the user wish to have a copy of the tables, they can be downloaded within the app as a multi-sheet Excel workbook. 
+
+Future improvements will include a tab for uploading and adding to a workbook created by the app and automatic transaction categorization using natural language processing and text classification. I currently do not have a timetable for these improvements (an estimate could be the end of August).
